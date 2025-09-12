@@ -20,7 +20,7 @@ class UsersController extends Controller {
         $this->call->view('users/index', $data);
     }
 
-    function create()
+    public function create()
     {
         if($this->io->method() == 'post') {
             $username = $this->io->post('username');
