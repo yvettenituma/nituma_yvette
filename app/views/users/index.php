@@ -40,7 +40,7 @@
 
       <!-- Create Record Button -->
       <div class="mt-4 flex justify-end">
-        <a href="<?=site_url('users/create');?>"
+        <a href="<?=site_url('users/Create');?>"
            class="bg-purple-700 text-white px-4 py-2 rounded-lg hover:bg-purple-800 transition">
           Create Record
         </a>
