@@ -37,7 +37,7 @@ class UsersController extends Controller {
                 echo "Error creating user.";
             }
         } else {
-            $this->call->view('users/create');
+            $this->call->view('users/Create');
         }
     }
 
