@@ -14,7 +14,7 @@
     <h1 class="text-2xl font-bold text-center text-purple-700 mb-6">Create an Account</h1>
 
     <!-- Sign Up Form -->
-    <form action="<?=site_url('users/create');?>" method="POST" class="space-y-4">
+    <form action="<?=site_url('users/Create');?>" method="POST" class="space-y-4">
 
       <!-- Username -->
       <div>
