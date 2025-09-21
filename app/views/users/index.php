@@ -177,7 +177,7 @@
         <?php foreach (html_escape($user) as $users): ?>
         <tr>
             <td><?=$users['ID']; ?></td>
-            <td><?=$users['username']; ?></td>
+            <td><?=$users['Username']; ?></td>
             <td><?=$users['email']; ?></td>
             <td>
                 <a href="<?=site_url('/users/update/'.$users['id']);?>">Update</a>
