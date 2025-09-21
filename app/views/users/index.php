@@ -62,11 +62,17 @@
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+            /* Added para may visible grid lines */
+            border: 1px solid #ddd;
         }
 
         th, td {
             padding: 14px 16px;
             text-align: left;
+
+            /* Added para kita yung columns at rows */
+            border: 1px solid #ddd;
         }
 
         th {
@@ -139,7 +145,7 @@
         }
 
         .btn-create:hover {
-            background: linear-gradient(to right, #6d28d9, #9333ea);
+            background: linear-gradient(to right, #3e0c4cff, #9333ea);
             transform: translateY(-2px);
         }
 
