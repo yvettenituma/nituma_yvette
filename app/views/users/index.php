@@ -180,8 +180,8 @@
             <td><?=$users['Username']; ?></td>
             <td><?=$users['Email']; ?></td>
             <td>
-                <a href="<?=site_url('/users/update/'.$users['id']);?>">Update</a>
-                <a href="<?=site_url('/users/delete/'.$users['id']);?>">Delete</a>
+                <a href="<?=site_url('/users/update/'.$users['ID']);?>">Update</a>
+                <a href="<?=site_url('/users/delete/'.$users['ID']);?>">Delete</a>
             </td>
         </tr>
         <?php endforeach; ?>
