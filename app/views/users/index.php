@@ -176,7 +176,7 @@
         </tr>
         <?php foreach (html_escape($user) as $users): ?>
         <tr>
-            <td><?=$users['id']; ?></td>
+            <td><?=$users['ID']; ?></td>
             <td><?=$users['username']; ?></td>
             <td><?=$users['email']; ?></td>
             <td>
