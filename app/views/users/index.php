@@ -69,11 +69,10 @@
 
         th, td {
             padding: 14px 16px;
-            text-align: left;
-
-            /* Added para kita yung columns at rows */
+            text-align: center;  /* change from left to center */
             border: 1px solid #ddd;
         }
+
 
         th {
             background: #7e5bef;
@@ -171,10 +170,12 @@
         .pagination strong {
             padding: 8px 14px;
             border-radius: 6px;
-            background: #7e5bef;
+            background: #5b21b6;   /* dark purple */
             color: #fff;
             font-weight: 600;
+            border: 1px solid #5b21b6; /* optional para mas consistent */
         }
+
 
         @media (max-width: 768px) {
             table {
