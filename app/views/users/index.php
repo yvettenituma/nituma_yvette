@@ -79,7 +79,7 @@
 
         td {
             font-size: 15px;
-            color: #444;
+            color: #000000ff;
             border-bottom: 1px solid #eee;
         }
 
@@ -113,11 +113,11 @@
 
         a[href*="delete"] {
             color: #fff;
-            background: #b91c1c;
+            background: #623b70ff;
         }
 
         a[href*="delete"]:hover {
-            background: #991b1b;
+            background: #1e171fff;
         }
 
         .button-container {
