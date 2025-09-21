@@ -138,7 +138,33 @@
             transform: translateY(-2px);
         }
 
-      
+        /* Pagination style */
+        .pagination a {
+            padding: 8px 14px;
+            border-radius: 6px;
+            background: #fff;
+            border: 1px solid #ccc;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .pagination a:hover {
+            background: #007bff;
+            color: #fff;
+            border-color: #007bff;
+        }
+
+        .pagination strong {
+            padding: 8px 14px;
+            border-radius: 6px;
+            background: #007bff;
+            color: #fff;
+            font-weight: 600;
+        }
+
         @media (max-width: 768px) {
             table {
                 width: 100%;
@@ -157,7 +183,7 @@
 </head>
 <body>
     <h1>Students Info</h1>
-    <form action="<?=site_url('users');?>" method="get" class="col-sm-4 float-end d-flex search-form" class="search-form">
+    <form action="<?=site_url('users');?>" method="get" class="col-sm-4 float-end d-flex search-form">
 		<?php
 		$q = '';
 		if(isset($_GET['q'])) {
@@ -165,8 +191,9 @@
 		}
 		?>
         <input class="form-control me-2" name="q" type="text" placeholder="Search" value="<?=html_escape($q);?>">
-        <button type="submit" class="btn btn-primary" type="button">Search</button>	
+        <button type="submit" class="btn btn-primary">Search</button>	
 	</form>
+
     <table>
         <tr>
             <th>ID</th>
@@ -186,8 +213,14 @@
         </tr>
         <?php endforeach; ?>
     </table>
-    <?php
-	echo $page;?>
+
+    <!-- Pagination Links -->
+    <div class="mt-6 d-flex justify-content-center">
+        <div class="pagination d-flex flex-wrap gap-2">
+            <?= $page; ?>
+        </div>
+    </div>
+
     <div class="button-container">
         <a href="<?=site_url('users/Create'); ?>" class="btn-create">+ Create New User</a>
     </div>
