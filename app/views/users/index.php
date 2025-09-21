@@ -62,12 +62,17 @@
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+            /* para visible ang border ng buong table */
+            border: 1px solid #ddd;
         }
 
         th, td {
             padding: 14px 16px;
-            text-align: left;
+            text-align: center;   /* centered lahat */
+            border: 1px solid #ddd; /* grid lines */
         }
+
 
         th {
             background: #7e5bef;
