@@ -17,7 +17,7 @@
 
         h1 {
             text-align: center;
-            color: #7e5bef;
+            color: #fff;
             margin-bottom: 20px; 
             font-size: 32px;
             font-weight: 700;
@@ -113,11 +113,11 @@
 
         a[href*="delete"] {
             color: #fff;
-            background: #a855f7;
+            background: #623b70ff;
         }
 
         a[href*="delete"]:hover {
-            background: #7e22ce;
+            background: #1e171fff;
         }
 
         .button-container {
@@ -165,7 +165,7 @@
         .pagination strong {
             padding: 8px 14px;
             border-radius: 6px;
-            background: #7e5bef; /* purple active page */
+            background: #7e5bef;
             color: #fff;
             font-weight: 600;
         }
