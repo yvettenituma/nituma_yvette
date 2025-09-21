@@ -178,7 +178,7 @@
         <tr>
             <td><?=$users['ID']; ?></td>
             <td><?=$users['Username']; ?></td>
-            <td><?=$users['email']; ?></td>
+            <td><?=$users['Email']; ?></td>
             <td>
                 <a href="<?=site_url('/users/update/'.$users['id']);?>">Update</a>
                 <a href="<?=site_url('/users/delete/'.$users['id']);?>">Delete</a>
