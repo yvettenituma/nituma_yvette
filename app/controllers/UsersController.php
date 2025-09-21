@@ -64,7 +64,7 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
                 echo 'Failed to create user.';
             }
         }else{
-           $this->call->view('users/reate');
+           $this->call->view('users/Create');
         }
         
     }
