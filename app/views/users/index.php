@@ -189,7 +189,7 @@
     <?php
 	echo $page;?>
     <div class="button-container">
-        <a href="<?=site_url('users/create'); ?>" class="btn-create">+ Create New User</a>
+        <a href="<?=site_url('users/Create'); ?>" class="btn-create">+ Create New User</a>
     </div>
 </body>
 </html>
