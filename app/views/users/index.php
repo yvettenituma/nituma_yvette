@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #7e5bef, #a855f7);
+            background: #f3e8ff; /* light purple background */
             min-height: 100vh;
             margin: 0;
             padding: 20px;
@@ -17,7 +17,7 @@
 
         h1 {
             text-align: center;
-            color: #fff;
+            color: #7e5bef;
             margin-bottom: 20px; 
             font-size: 32px;
             font-weight: 700;
@@ -113,11 +113,11 @@
 
         a[href*="delete"] {
             color: #fff;
-            background: #623b70ff;
+            background: #a855f7;
         }
 
         a[href*="delete"]:hover {
-            background: #1e171fff;
+            background: #7e22ce;
         }
 
         .button-container {
@@ -165,7 +165,7 @@
         .pagination strong {
             padding: 8px 14px;
             border-radius: 6px;
-            background: #7e5bef;
+            background: #7e5bef; /* purple active page */
             color: #fff;
             font-weight: 600;
         }
